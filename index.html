@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MovieHub - Daftar Film</title>
+
+    <!-- Menghubungkan HTML dengan CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ================================================== -->
+        <!-- JUDUL WEBSITE -->
+        <!-- ================================================== -->
+
+        <h1>MovieHub by Zaltan Ibrahim</h1>
+
+        <p class="subtitle">
+            Daftar Film Pilihan & Informasi Tiket
+        </p>
+
+
+        <!-- ================================================== -->
+        <!-- NAVIGASI -->
+        <!-- ================================================== -->
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profil">Profil</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#daftar-film">Daftar Film</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+
+
+        <!-- ================================================== -->
+        <!-- HOME -->
+        <!-- ================================================== -->
+
+        <section id="home" class="menu-section">
+
+            <h2>Home</h2>
+
+            <p>
+                Selamat datang di <b>MovieHub by Zaltan Ibrahim</b>.
+                Website ini menyediakan informasi mengenai beberapa film
+                pilihan, lengkap dengan poster, genre, rating, deskripsi,
+                harga tiket, dan trailer film.
+            </p>
+
+            <p>
+                Silakan gunakan menu navigasi di atas untuk melihat
+                profil, informasi tentang website, gallery film,
+                daftar film, dan menghubungi kami.
+            </p>
+
+        </section>
+
+
+        <!-- ================================================== -->
+        <!-- PROFIL -->
+        <!-- ================================================== -->
+
+        <section id="profil" class="menu-section">
+
+            <h2>Profil</h2>
+
+            <p>
+                <b>Nama:</b> Zaltan Ibrahim
+            </p>
+
+            <p>
+                <b>Website:</b> MovieHub
+            </p>
+
+            <p>
+                <b>Deskripsi:</b> MovieHub merupakan website sederhana
+                yang dibuat untuk menampilkan informasi dan daftar film.
+            </p>
+
+        </section>
+
+
+        <!-- ================================================== -->
+        <!-- ABOUT -->
+        <!-- ================================================== -->
+
+        <section id="about" class="menu-section">
+
+            <h2>About</h2>
+
+            <p>
+                MovieHub adalah website yang dibuat untuk memberikan
+                informasi sederhana mengenai film-film pilihan.
+            </p>
+
+            <p>
+                Di dalam website ini terdapat informasi seperti judul film,
+                tahun rilis, genre, rating, deskripsi, poster, serta
+                trailer film yang dapat diputar langsung melalui browser.
+            </p>
+
+        </section>
+
+
+        <!-- ================================================== -->
+        <!-- GALLERY -->
+        <!-- ================================================== -->
+
+        <section id="gallery" class="menu-section">
+
+            <h2>Gallery</h2>
+
+            <p>
+                Berikut adalah gallery poster film yang tersedia
+                di MovieHub.
+            </p>
+
+            <div class="gallery">
+
+
+                <!-- GALLERY FILM 1 -->
+
+                <div class="gallery-item">
+
+                    <img src="beer-run.jpg"
+                         alt="The Greatest Beer Run Ever">
+
+                    <p>
+                        The Greatest Beer Run Ever
+                    </p>
+
+                </div>
+
+
+                <!-- GALLERY FILM 2 -->
+
+                <div class="gallery-item">
+
+                    <img src="fury.jpg"
+                         alt="Fury">
+
+                    <p>
+                        Fury
+                    </p>
+
+                </div>
+
+
+                <!-- GALLERY FILM 3 -->
+
+                <div class="gallery-item">
+
+                    <img src="hacksaw-ridge.jpg"
+                         alt="Hacksaw Ridge">
+
+                    <p>
+                        Hacksaw Ridge
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================== -->
+        <!-- DAFTAR FILM -->
+        <!-- ================================================== -->
+
+        <section id="daftar-film" class="menu-section">
+
+            <h2>Daftar Film</h2>
+
+            <p>
+                Berikut adalah daftar film yang tersedia di MovieHub.
+                Setiap film dilengkapi dengan poster, deskripsi,
+                informasi genre, rating, harga tiket, dan trailer.
+            </p>
+
+
+            <!-- ================================================== -->
+            <!-- FILM 1 -->
+            <!-- ================================================== -->
+
+            <div class="film">
+
+                <img class="poster"
+                     src="beer-run.jpg"
+                     alt="The Greatest Beer Run Ever">
+
+
+                <div class="info">
+
+                    <h2>
+                        The Greatest Beer Run Ever (2022)
+                    </h2>
+
+                    <p>
+                        <b>Genre:</b> Comedy, Drama, War
+                    </p>
+
+                    <p>
+                        <b>Rating:</b> 6.8/10
+                    </p>
+
+                    <p>
+                        Seorang pria pergi ke Vietnam untuk mengantarkan
+                        bir kepada teman-temannya yang sedang bertugas
+                        sebagai tentara.
+                    </p>
+
+                    <p class="price">
+                        Harga Tiket: &dollar;10
+                    </p>
+
+                    <a href="#trailer1" class="btn-trailer">
+                        ▶ Nonton Trailer
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================================== -->
+            <!-- TRAILER FILM 1 -->
+            <!-- ================================================== -->
+
+            <div class="trailer" id="trailer1">
+
+                <h3>
+                    Trailer The Greatest Beer Run Ever
+                </h3>
+
+                <video controls>
+
+                    <source
+                        src="trailer-beer-run.mp4"
+                        type="video/mp4">
+
+                    Browser Anda tidak mendukung video HTML5.
+
+                </video>
+
+            </div>
+
+
+            <!-- ================================================== -->
+            <!-- FILM 2 -->
+            <!-- ================================================== -->
+
+            <div class="film">
+
+                <img class="poster"
+                     src="fury.jpg"
+                     alt="Fury">
+
+
+                <div class="info">
+
+                    <h2>
+                        Fury (2014)
+                    </h2>
+
+                    <p>
+                        <b>Genre:</b> Action, Drama, War
+                    </p>
+
+                    <p>
+                        <b>Rating:</b> 7.5/10
+                    </p>
+
+                    <p>
+                        Seorang sersan dan pasukan tank Amerika menghadapi
+                        pertempuran sengit melawan pasukan Jerman pada akhir
+                        Perang Dunia II.
+                    </p>
+
+                    <p class="price">
+                        Harga Tiket: &dollar;12
+                    </p>
+
+                    <a href="#trailer2" class="btn-trailer">
+                        ▶ Nonton Trailer
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================================== -->
+            <!-- TRAILER FILM 2 -->
+            <!-- ================================================== -->
+
+            <div class="trailer" id="trailer2">
+
+                <h3>
+                    Trailer Fury
+                </h3>
+
+                <video controls>
+
+                    <source
+                        src="trailer-fury.mp4"
+                        type="video/mp4">
+
+                    Browser Anda tidak mendukung video HTML5.
+
+                </video>
+
+            </div>
+
+
+            <!-- ================================================== -->
+            <!-- FILM 3 -->
+            <!-- ================================================== -->
+
+            <div class="film">
+
+                <img class="poster"
+                     src="hacksaw-ridge.jpg"
+                     alt="Hacksaw Ridge">
+
+
+                <div class="info">
+
+                    <h2>
+                        Hacksaw Ridge (2016)
+                    </h2>
+
+                    <p>
+                        <b>Genre:</b> Biography, Drama, History
+                    </p>
+
+                    <p>
+                        <b>Rating:</b> 8.1/10
+                    </p>
+
+                    <p>
+                        Kisah nyata Desmond Doss, seorang petugas medis
+                        perang yang menolak membawa senjata tetapi tetap
+                        menyelamatkan banyak tentara di medan perang.
+                    </p>
+
+                    <p class="price">
+                        Harga Tiket: &dollar;9
+                    </p>
+
+                    <a href="#trailer3" class="btn-trailer">
+                        ▶ Nonton Trailer
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================================== -->
+            <!-- TRAILER FILM 3 -->
+            <!-- ================================================== -->
+
+            <div class="trailer" id="trailer3">
+
+                <h3>
+                    Trailer Hacksaw Ridge
+                </h3>
+
+                <video controls>
+
+                    <source
+                        src="trailer-hacksawridge.mp4"
+                        type="video/mp4">
+
+                    Browser Anda tidak mendukung video HTML5.
+
+                </video>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================== -->
+        <!-- KONTAK -->
+        <!-- ================================================== -->
+
+        <section id="kontak" class="menu-section">
+
+            <h2>Kontak</h2>
+
+            <p>
+                Jika memiliki pertanyaan atau ingin memberikan saran,
+                silakan isi formulir kontak berikut.
+            </p>
+
+
+            <form class="contact-form">
+
+                <label for="nama">
+                    Nama
+                </label>
+
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Masukkan nama"
+                    required
+                >
+
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Masukkan email"
+                    required
+                >
+
+
+                <label for="pesan">
+                    Pesan
+                </label>
+
+                <textarea
+                    id="pesan"
+                    name="pesan"
+                    rows="5"
+                    placeholder="Tulis pesan Anda"
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Kirim
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- ================================================== -->
+        <!-- AUDIO -->
+        <!-- ================================================== -->
+
+        <section class="media">
+
+            <h2>
+                Sample Track
+            </h2>
+
+            <audio controls>
+
+                <source
+                    src="musik.mp3"
+                    type="audio/mpeg">
+
+                Browser Anda tidak mendukung audio HTML5.
+
+            </audio>
+
+        </section>
+
+
+        <!-- ================================================== -->
+        <!-- FOOTER -->
+        <!-- ================================================== -->
+
+        <footer>
+
+            <h3>
+                MovieHub by Zaltan Ibrahim
+            </h3>
+
+            <p>
+                &copy; 2026 MovieHub.
+                Seluruh hak cipta dilindungi.
+            </p>
+
+            <p>
+                Website daftar film dan informasi trailer.
+            </p>
+
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
